@@ -27,7 +27,7 @@ def main(url):
 			print(path)
 		elif(path[:3] == "../"):
 			print(path)
-		elif("//" or "\\" or "<" or ">"in path):
+		elif("//" or "\\" or "<" or ">" or " " in path):
 			pass
 		elif("/" in path):
 			print(path)
